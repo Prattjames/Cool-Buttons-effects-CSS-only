@@ -1,0 +1,71 @@
+html {
+  background-color: black;
+}
+
+body {
+  margin: auto;
+  width: 400px;
+  padding-top: 20%;
+}
+
+a {
+    display:inline-block;
+    position: relative;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    width:100px;
+    height:100px;
+    margin-right: 15px;
+    
+    background-image: url(http://www.pokepedia.fr/images/thumb/1/1d/Toudoudou-RFVF.png/80px-Toudoudou-RFVF.png);
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 50% 50%;
+    
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    
+    border-width:50px;
+    border-color:rgba(250,128,114, 0);
+    
+    -webkit-transition:0.3s ease;
+    -moz-transition:0.3s ease;
+    -ms-transition:0.3s ease;
+    -o-transition:0.3s ease;
+    transition:0.3s ease;
+}
+
+a:hover {
+    border-width:0px;
+    border-color:rgba(250,128,114,0.5);
+
+    
+    -webkit-transition-duration:0.5s;
+    -moz-transition-duration:0.5s;
+    -ms-transition-duration:0.5s;
+    -o-transition-duration:0.5s;
+    transition-duration:0.5s;
+}
+
+.try { border: 50px dotted rgba(250,128,114, 0.7);}
+a.try:hover {border: 0 dotted rgba(250,128,114,0.7);}
+
+.take { border-style: dashed;}
+.make {border-style: double;}
+
+.buy, .bake, .sake {
+    -webkit-border-radius:0;
+    -moz-border-radius:0;
+    border-radius:0; 
+}
+
+.buy { border: 50px solid rgba(250,128,114, 0.7);}
+a.buy:hover {border: 2px solid rgba(250,128,114,0.7);}
+
+.bake { border: 50px dashed rgba(250,128,114, 0.7);}
+a.bake:hover {border: 2px dashed rgba(250,128,114,0.7);}
+
+.sake { border: 50px dotted rgba(250,128,114, 0.7);}
+a.sake:hover {border: 2px dotted rgba(250,128,114,0.7);}
