@@ -6,4 +6,4 @@
 View on CodePen:  [here](http://codepen.io/delzen_j/pen/BNmMEL)
 
 ----------
-[**MIT License**](mit.jdelzenne.com)
+[**MIT License**](http://mit.jdelzenne.com)
