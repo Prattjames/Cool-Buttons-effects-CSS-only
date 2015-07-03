@@ -1,11 +1,24 @@
 html {
-  background-color: black;
+  background: -webkit-linear-gradient(rgba(0,191,255, 0.5), white, white, white, rgba(0,191,255, 0.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,191,255, 0.5), white, white, white, rgba(0,191,255, 0.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,191,255, 0.5), white, white, white, rgba(0,191,255, 0.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,191,255, 0.5), white, white, white, rgba(0,191,255, 0.5)); /* Standard syntax */
+  height: 100%;
 }
 
 body {
   margin: auto;
   width: 400px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
   padding-top: 20%;
+}
+
+div {
+  position: absolute;
+  left: 25%;
+  right: 25%;
 }
 
 a {
@@ -28,7 +41,7 @@ a {
     border-radius:50px;
     
     border-width:50px;
-    border-color:rgba(250,128,114, 0);
+    border-color:rgba(64,224,208, 0.5);
     
     -webkit-transition:0.3s ease;
     -moz-transition:0.3s ease;
@@ -39,7 +52,7 @@ a {
 
 a:hover {
     border-width:0px;
-    border-color:rgba(250,128,114,0.5);
+    border-color:rgba(64,224,208, 0.5);
 
     
     -webkit-transition-duration:0.5s;
@@ -49,8 +62,8 @@ a:hover {
     transition-duration:0.5s;
 }
 
-.try { border: 50px dotted rgba(250,128,114, 0.7);}
-a.try:hover {border: 0 dotted rgba(250,128,114,0.7);}
+.try { border: 50px dotted rgba(64,224,208, 0.5);}
+a.try:hover {border: 0 dotted rgba(64,224,208, 0.5);}
 
 .take { border-style: dashed;}
 .make {border-style: double;}
@@ -61,11 +74,11 @@ a.try:hover {border: 0 dotted rgba(250,128,114,0.7);}
     border-radius:0; 
 }
 
-.buy { border: 50px solid rgba(250,128,114, 0.7);}
-a.buy:hover {border: 2px solid rgba(250,128,114,0.7);}
+.buy { border: 50px solid rgba(64,224,208, 0.5);}
+a.buy:hover {border: 2px solid rgba(64,224,208, 0.5);}
 
-.bake { border: 50px dashed rgba(250,128,114, 0.7);}
-a.bake:hover {border: 2px dashed rgba(250,128,114,0.7);}
+.bake { border: 50px dashed rgba(64,224,208, 0.5);}
+a.bake:hover {border: 2px dashed rgba(64,224,208, 0.5);}
 
-.sake { border: 50px dotted rgba(250,128,114, 0.7);}
-a.sake:hover {border: 2px dotted rgba(250,128,114,0.7);}
+.sake { border: 50px dotted rgba(64,224,208, 0.5);}
+a.sake:hover {border: 2px dotted rgba(64,224,208, 0.5);}
